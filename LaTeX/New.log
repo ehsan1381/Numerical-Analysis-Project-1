@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.20)  21 APR 2023 02:02
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.20)  21 APR 2023 02:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -502,12 +502,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
 [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 59--69
-[][]
- []
-
-[2] (New.aux) ) 
+] [2] (New.aux) ) 
 Here is how much of TeX's memory you used:
  6860 strings out of 411463
  168240 string characters out of 5822473
