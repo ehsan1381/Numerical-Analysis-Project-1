@@ -16,21 +16,21 @@ Arr = zeros(10, 3);
 % An array of zeros to store sequence values
 SeqArr = zeros(Sequence_Bound,1);
 
-% parfor loop to calculate sequence values and store in SeqArr
+% for loop to calculate sequence values and store in SeqArr
 % this loop eliminates the need for calculating all sequence values
 % for each alpha. The bound of loop determines how much of the sequence
 % values do we have at hand to work with. If it is set lower precision
 % of logical reasoning decreases. 50000 is chosen because of low-end computer.
-parfor i = 1:Sequence_Bound
+for i = 1:Sequence_Bound
     SeqArr(i) = Sequence(i);
 end
 
-% parfor loop to search for alpha and index values
+% for loop to search for alpha and index values
 % and store outputs in Arr
 % In this configuration 5000 random alpha values are
 % generated and tested. This number can be changed 
 % with no problem raising.
-parfor i =1:Random_Alpha_Count
+for i =1:Random_Alpha_Count
     alpha = rand * 10;
     an = Divergence(index, alpha, SeqArr);
     Arr(i,:) = [alpha, an(1)  ,an(2)];
