@@ -1,12 +1,12 @@
-function [ answer ] = Divergence(index_S, Alpha)
+function [ answer ] = Divergence(index_S, Alpha, SeqArr)
     n = index_S + 1;
     
     Minimum_Distance_Index = n;
 	Minimum_Distance = abs(Sequence(n) - Alpha);
 	
-    while n<=8000
+    while n<=50000
         
-		Distance = abs(Sequence(n) - Alpha);
+		Distance = abs(SeqArr(n) - Alpha);
 		
         if Distance < Minimum_Distance
 			Minimum_Distance = Distance;

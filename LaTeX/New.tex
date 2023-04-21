@@ -1,7 +1,11 @@
+% Run on XeLaTeX
+
 \documentclass[12pt, letterpaper]{article}
 
 \usepackage{amsmath}
+\usepackage{amsfonts}
 \usepackage{graphicx}
+\usepackage{multirow}
 
 % set path to images
 \graphicspath{{./images/}}
@@ -20,7 +24,7 @@
 \subsection{صورت سوال}
 فرض کنید \(fl(y)\) عدد \(k\) رقمی قطع شده \(y\) باشد، نشان دهید:
 
-\[\frac{\big| y-fl(y) \big| }{\big| y \big|} \le 10^{-k+}\]
+\[\frac{\big| y-fl(y) \big| }{\big| y \big|} \le 10^{-k+1}\]
 
 \subsection{پاسخ}
 
@@ -88,7 +92,107 @@
 \[ L = \frac{1}{3}, \: p = 2\]
 
 
+\section{سوال 3}
+\subsection{صورت سوال}
+با استفاده از یک برنامه عددی و تعریف دنباله ای سری ها نشان دهید سری های زیر به ترتیب همگرا و واگرا هستند.
+\[ \sum_{i=1}^{\infty} \frac {1}{n^2}\]
+\[ \sum_{i=1}^{\infty} \frac {1}{n}\]
 
+
+
+\subsection{پاسخ}
+% add logical expressions as description of answer
+
+طبق تعریف همگرایی دنباله ها داریم:
+\[\exists \! \alpha\! \in\! \mathbb{R} \quad \forall \varepsilon \! > \! 0 \quad \exists N\! > \! 0 \quad \forall n\! >\! N\quad ; \quad \big| \alpha_{n} - \alpha \big|\! <\! \varepsilon \]
+در صورت صدق گزاره بالا گوییم دنباله 
+\((\alpha_{n})\)
+به 
+$\alpha$
+همگراست. گوییم دنباله ای واگراست اگر همگرا نباشد. پس نقیض منطقی گزاره بالا را محاسبه میکنیم:
+\[\forall \! \alpha\! \in\! \mathbb{R} \quad \exists \varepsilon \! > \! 0 \quad \forall N\! > \! 0 \quad \exists n\! >\! N\quad ; \quad \big| \alpha_{n} - \alpha \big|\! \ge\! \varepsilon \]
+با این توصیف الگوریتم را به این صورت می سازیم تا با گرفتن 
+$\alpha$
+ و 
+$N$
+به عنوان ورودی به دنبال کمترین میزان 
+$\varepsilon$
+ بگردد و به همراه اندیس عضو دنباله برگرداند. این الگوریتم هم برای نشان دادن همگرایی و هم واگرایی قابل استفاده است.
+\\
+فایل متلب 
+$Sequence.m$
+تعریف دنباله است که میتوان با تغییری کوچک دنباله 
+$\frac{1}{n}$
+را به 
+$\frac{1}{n^2}$
+ تبدیل کرد و برعکس. 
+$Convergence.m$
+فایل الگوریتم است که تابعی است در متلب که با گرفتن 
+$\alpha$ 
+ و 
+$N$
+مقادیر خواسته شده را برمیگرداند.
+$main.m$
+ فایل اجرایی است که مقادیر رندوم برای 
+$\alpha$
+ انتخاب میکند و با اجرای الگوریتم مقادیر را گرفته و در یک آرایه ذخیره میکند.
+\\
+ فایل های 
+$.mat$
+در پوشه 
+$MATLAB$
+ ارایه های ذخیره شده برای اجرای های مختلف اند. پیشوند 
+$C$
+ نمایش دهنده دنباله 
+$\frac{1}{n}$ و $D$
+ 
+نمایش دهنده
+ $\frac{1}{n^2}$ 
+است. 
+\\
+برای اثبات همگرایی دنباله ، طبق تعریف انتظار داریم برای هر مقدار 
+$\alpha$ 
+ای یا یک $n$ 
+با $\varepsilon$
+ کوچک پیدا شود یا
+ $n$ 
+بزرگی پیدا شود. شکل های زیر جدول مربوط به آرایه اجراهای مجزا از الگوریتم برای مقادیر رندوم 
+$\alpha$
+ اند.
+\\
+\includegraphics[height=10cm, width=75mm]{figure3.png}
+\includegraphics[height=10cm, width=75mm]{figure4.png}
+\vspace{10mm}
+\\
+ستون اول مقادیر 
+$\alpha$ 
+ستون دوم مقادیر 
+$\varepsilon$ 
+و ستون سوم مقادیر 
+$n$ 
+است. همانطور که قابل مشاهده است برای مقادیری از 
+$\alpha$ $n$ 
+کوچک است و به صورت ناگهان مقادیر 
+$n$
+ به
+ $8000$ 
+میرود که حد محاسبه اعضای دنباله است. این به این معنی است که دنباله همگرا به مقداری میان این دو 
+$\alpha$
+ است.
+\\
+برای اثبات واگرایی انتظار داریم برای هر 
+$\alpha$
+یک 
+$n$
+کوچک و یک 
+$\varepsilon$
+ کوچک پیدا شود.
+
+
+\includegraphics[height=10cm, width=75mm]{figure5.png}
+\includegraphics[height=10cm, width=75mm]{figure6.png}
+\vspace{10mm}
+\\
 
 \end{document}
 

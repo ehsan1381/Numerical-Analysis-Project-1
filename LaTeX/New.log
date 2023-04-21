@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.20)  21 APR 2023 02:27
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.21)  21 APR 2023 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -91,6 +91,14 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(D:\Applications\MikTex\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
 (D:\Applications\MikTex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -115,6 +123,13 @@ File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
 )
+(D:\Applications\MikTex\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip53
+\multirow@cntb=\count267
+\multirow@dima=\skip54
+\bigstrutjot=\dimen152
+)
 (D:\Applications\MikTex\tex/xelatex/xepersian\xepersian.sty
 Package: xepersian 2022/10/30 v24.8 (Release Women, Life, and Freedom) Persian 
 typesetting in XeLaTeX
@@ -126,11 +141,11 @@ Package: expl3 2023-03-30 L3 programming layer (loader)
 
 (D:\Applications\MikTex\tex/latex/l3backend\l3backend-xetex.def
 File: l3backend-xetex.def 2023-03-30 L3 backend support: XeTeX
-\g__graphics_track_int=\count267
+\g__graphics_track_int=\count268
 \l__pdf_internal_box=\box53
-\g__pdf_backend_object_int=\count268
-\g__pdf_backend_annotation_int=\count269
-\g__pdf_backend_link_int=\count270
+\g__pdf_backend_object_int=\count269
+\g__pdf_backend_annotation_int=\count270
+\g__pdf_backend_link_int=\count271
 ))
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )
@@ -139,20 +154,20 @@ Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 (D:\Applications\MikTex\tex/latex/fontspec\fontspec-xetex.sty
 Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count271
-\l__fontspec_language_int=\count272
-\l__fontspec_strnum_int=\count273
-\l__fontspec_tmp_int=\count274
-\l__fontspec_tmpa_int=\count275
-\l__fontspec_tmpb_int=\count276
-\l__fontspec_tmpc_int=\count277
-\l__fontspec_em_int=\count278
-\l__fontspec_emdef_int=\count279
-\l__fontspec_strong_int=\count280
-\l__fontspec_strongdef_int=\count281
-\l__fontspec_tmpa_dim=\dimen152
-\l__fontspec_tmpb_dim=\dimen153
-\l__fontspec_tmpc_dim=\dimen154
+\l__fontspec_script_int=\count272
+\l__fontspec_language_int=\count273
+\l__fontspec_strnum_int=\count274
+\l__fontspec_tmp_int=\count275
+\l__fontspec_tmpa_int=\count276
+\l__fontspec_tmpb_int=\count277
+\l__fontspec_tmpc_int=\count278
+\l__fontspec_em_int=\count279
+\l__fontspec_emdef_int=\count280
+\l__fontspec_strong_int=\count281
+\l__fontspec_strongdef_int=\count282
+\l__fontspec_tmpa_dim=\dimen153
+\l__fontspec_tmpb_dim=\dimen154
+\l__fontspec_tmpc_dim=\dimen155
 
 (D:\Applications\MikTex\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -160,43 +175,43 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 (D:\Applications\MikTex\tex/latex/fontspec\fontspec.cfg)))
 (D:\Applications\MikTex\tex/xelatex/xepersian\xepersian-persiancal.sty
 Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
-\XePersian@i=\count282
-\XePersian@y=\count283
-\XePersian@m=\count284
-\XePersian@d=\count285
-\XePersian@latini=\count286
-\XePersian@persiani=\count287
-\XePersian@latinii=\count288
-\XePersian@persianii=\count289
-\XePersian@latiniii=\count290
-\XePersian@persianiii=\count291
-\XePersian@latiniv=\count292
-\XePersian@persianiv=\count293
-\XePersian@latinv=\count294
-\XePersian@persianv=\count295
-\XePersian@latinvi=\count296
-\XePersian@persianvi=\count297
-\XePersian@latinvii=\count298
-\XePersian@persianvii=\count299
-\XePersian@latinviii=\count300
-\XePersian@persianviii=\count301
-\XePersian@latinix=\count302
-\XePersian@persianix=\count303
-\XePersian@latinx=\count304
-\XePersian@persianx=\count305
-\XePersian@latinxi=\count306
-\XePersian@persianxi=\count307
-\XePersian@latinxii=\count308
-\XePersian@persianxii=\count309
-\XePersian@persianxiii=\count310
-\XePersian@temp=\count311
-\XePersian@temptwo=\count312
-\XePersian@tempthree=\count313
-\XePersian@yModHundred=\count314
-\XePersian@thirtytwo=\count315
-\XePersian@dn=\count316
-\XePersian@sn=\count317
-\XePersian@mminusone=\count318
+\XePersian@i=\count283
+\XePersian@y=\count284
+\XePersian@m=\count285
+\XePersian@d=\count286
+\XePersian@latini=\count287
+\XePersian@persiani=\count288
+\XePersian@latinii=\count289
+\XePersian@persianii=\count290
+\XePersian@latiniii=\count291
+\XePersian@persianiii=\count292
+\XePersian@latiniv=\count293
+\XePersian@persianiv=\count294
+\XePersian@latinv=\count295
+\XePersian@persianv=\count296
+\XePersian@latinvi=\count297
+\XePersian@persianvi=\count298
+\XePersian@latinvii=\count299
+\XePersian@persianvii=\count300
+\XePersian@latinviii=\count301
+\XePersian@persianviii=\count302
+\XePersian@latinix=\count303
+\XePersian@persianix=\count304
+\XePersian@latinx=\count305
+\XePersian@persianx=\count306
+\XePersian@latinxi=\count307
+\XePersian@persianxi=\count308
+\XePersian@latinxii=\count309
+\XePersian@persianxii=\count310
+\XePersian@persianxiii=\count311
+\XePersian@temp=\count312
+\XePersian@temptwo=\count313
+\XePersian@tempthree=\count314
+\XePersian@yModHundred=\count315
+\XePersian@thirtytwo=\count316
+\XePersian@dn=\count317
+\XePersian@sn=\count318
+\XePersian@mminusone=\count319
 )
 (D:\Applications\MikTex\tex/xelatex/xepersian\xepersian-mathdigitspec.sty
 Package: xepersian-mathdigitspec 2022/05/20 v1.2.0 Unicode Persian math digits 
@@ -240,17 +255,17 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 Package: biditools 2022/06/15 v2.3 Programming tools for bidi package
 \@bidi@envbody=\toks22
 \@bidi@emptytoks=\toks23
-\bidi@poscount=\count319
-\bidi@tempcountb=\count320
+\bidi@poscount=\count320
+\bidi@tempcountb=\count321
 \bidi@temptoksa=\toks24
 \bidi@temptoksb=\toks25
-\bidi@dummies=\count321
+\bidi@dummies=\count322
 \bidi@are@these@correct=\toks26
 \bidi@toks@lista=\toks27
 \bidi@toks@listb=\toks28
-\bidi@stack@length=\count322
+\bidi@stack@length=\count323
 \bidi@empty@stack=\toks29
-\bidi@looprepeat@depth=\count323
+\bidi@looprepeat@depth=\count324
 )
 (D:\Applications\MikTex\tex/latex/zref\zref-abspage.sty
 Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
@@ -291,7 +306,7 @@ Package zref Info: New property: page on input line 769.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\c@abspage=\count324
+\c@abspage=\count325
 Package zref Info: New property: abspage on input line 65.
 )
 (D:\Applications\MikTex\tex/latex/xkeyval\xkeyval.sty
@@ -302,7 +317,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks30
 \XKV@tempa@toks=\toks31
 )
-\XKV@depth=\count325
+\XKV@depth=\count326
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \@bidi@copyins@=\insert252
@@ -311,12 +326,12 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 File: latex-xetex-bidi.def 2022/07/04 v1.4.9 bidi adaptations for `latex.ltx' f
 or XeTeX engine
 \bidi@n@everypar=\toks32
-\bidi@column@check@number=\count326
+\bidi@column@check@number=\count327
 
 (D:\Applications\MikTex\tex/xelatex/bidi\footnote-xetex-bidi.def
 File: footnote-xetex-bidi.def 2023/01/18 v1.2 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count327
+\c@footdir@label=\count328
 \footdir@toks=\toks33
 )
 (D:\Applications\MikTex\tex/xelatex/bidi\article-xetex-bidi.def
@@ -339,7 +354,7 @@ kage for XeTeX engine
 File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
  last package loaded
 )
-\bidi@digits=\count328
+\bidi@digits=\count329
 \bidi@digits@charclass=\XeTeXcharclass1
 \bidi@sepmark@charclass=\XeTeXcharclass2
 )
@@ -368,9 +383,9 @@ File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
 * Primary author of xepersian package: Vafa Khalighi.
 * 
 ****************************************************
-\xepersian@tcl=\count329
-\xepersian@ilg=\dimen155
-\xepersian@strutilg=\dimen156
+\xepersian@tcl=\count330
+\xepersian@ilg=\dimen156
+\xepersian@strutilg=\dimen157
 (D:\Applications\MikTex\tex/xelatex/xepersian\loadingorder-xepersian.def
 File: loadingorder-xepersian.def 2018/09/29 v0.5 making sure that xepersian is 
 the last package loaded
@@ -460,29 +475,40 @@ sian-tex-text;"
  (New.aux)
 \openout1 = `New.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+0.
 (D:\Applications\MikTex\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+(D:\Applications\MikTex\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+
+
+(D:\Applications\MikTex\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
 [][]
  []
 
@@ -491,25 +517,50 @@ File: ./images//figure1.png Graphic file (type bmp)
 File: ./images//figure2.png Graphic file (type bmp)
 <./images//figure2.png>
 
-Overfull \hbox (28.2909pt too wide) in paragraph at lines 54--57
+Overfull \hbox (28.2909pt too wide) in paragraph at lines 58--61
 [][][][][] [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--57
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
 [][]
  []
 
 [1
 
-] [2] (New.aux) ) 
+] [2]
+File: ./images//figure3.png Graphic file (type bmp)
+<./images//figure3.png>
+File: ./images//figure4.png Graphic file (type bmp)
+<./images//figure4.png>
+
+Overfull \hbox (38.74945pt too wide) in paragraph at lines 149--190
+[][][][] [][][][]
+ []
+
+[3]
+File: ./images//figure5.png Graphic file (type bmp)
+<./images//figure5.png>
+File: ./images//figure6.png Graphic file (type bmp)
+<./images//figure6.png>
+
+Overfull \hbox (56.75574pt too wide) in paragraph at lines 192--196
+[][][][][] [][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--196
+[][]
+ []
+
+[4] [5] (New.aux) ) 
 Here is how much of TeX's memory you used:
- 6860 strings out of 411463
- 168240 string characters out of 5822473
- 1849290 words of memory out of 5000000
- 26984 multiletter control sequences out of 15000+600000
- 517245 words of font info for 72 fonts, out of 8000000 for 9000
+ 7085 strings out of 411463
+ 172042 string characters out of 5822473
+ 1853290 words of memory out of 5000000
+ 27189 multiletter control sequences out of 15000+600000
+ 519715 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,8n,97p,1038b,250s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on New.pdf (2 pages).
+Output written on New.pdf (5 pages).
