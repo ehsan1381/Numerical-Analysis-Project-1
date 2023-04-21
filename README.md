@@ -3,7 +3,7 @@ First Project of Numerical Analysis
 
 
 ## Project Description
-This project contains answers to three problems in the subject of numerical analysis. MATLAB codes on this branch run mostly parallel. For serial processing go to master.
+This project contains answers to three problems in the subject of numerical analysis. MATLAB codes on this branch run serial. For parallel processing go to main.
 
 ## NOTICE:
 This is a private project and can only be accessed by when allowed by author.
