@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.21)  21 APR 2023 17:01
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.21)  23 APR 2023 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -129,6 +129,9 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@cntb=\count267
 \multirow@dima=\skip54
 \bigstrutjot=\dimen152
+)
+(D:\Applications\MikTex\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (D:\Applications\MikTex\tex/xelatex/xepersian\xepersian.sty
 Package: xepersian 2022/10/30 v24.8 (Release Women, Life, and Freedom) Persian 
@@ -475,40 +478,42 @@ sian-tex-text;"
  (New.aux)
 \openout1 = `New.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-0.
+1.
 (D:\Applications\MikTex\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
 
 
 (D:\Applications\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
 
 
 (D:\Applications\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
+) [1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
 [][]
  []
 
@@ -517,50 +522,48 @@ File: ./images//figure1.png Graphic file (type bmp)
 File: ./images//figure2.png Graphic file (type bmp)
 <./images//figure2.png>
 
-Overfull \hbox (28.2909pt too wide) in paragraph at lines 58--61
+Overfull \hbox (28.2909pt too wide) in paragraph at lines 85--88
 [][][][][] [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--61
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
 [][]
  []
 
-[1
-
-] [2]
+[2] [3]
 File: ./images//figure3.png Graphic file (type bmp)
 <./images//figure3.png>
 File: ./images//figure4.png Graphic file (type bmp)
 <./images//figure4.png>
 
-Overfull \hbox (38.74945pt too wide) in paragraph at lines 149--190
+Overfull \hbox (38.74945pt too wide) in paragraph at lines 176--217
 [][][][] [][][][]
  []
 
-[3]
+[4]
 File: ./images//figure5.png Graphic file (type bmp)
 <./images//figure5.png>
 File: ./images//figure6.png Graphic file (type bmp)
 <./images//figure6.png>
 
-Overfull \hbox (56.75574pt too wide) in paragraph at lines 192--196
+Overfull \hbox (56.75574pt too wide) in paragraph at lines 219--223
 [][][][][] [][][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--196
+Underfull \hbox (badness 10000) in paragraph at lines 219--223
 [][]
  []
 
-[4] [5] (New.aux) ) 
+[5] [6] (New.aux) ) 
 Here is how much of TeX's memory you used:
- 7085 strings out of 411463
- 172042 string characters out of 5822473
+ 7506 strings out of 411463
+ 176474 string characters out of 5822473
  1853290 words of memory out of 5000000
- 27189 multiletter control sequences out of 15000+600000
+ 27607 multiletter control sequences out of 15000+600000
  519715 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,8n,97p,1038b,250s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on New.pdf (5 pages).
+Output written on New.pdf (6 pages).

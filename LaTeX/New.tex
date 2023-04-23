@@ -6,6 +6,7 @@
 \usepackage{amsfonts}
 \usepackage{graphicx}
 \usepackage{multirow}
+\usepackage{amssymb}
 
 % set path to images
 \graphicspath{{./images/}}
@@ -27,6 +28,32 @@
 \[\frac{\big| y-fl(y) \big| }{\big| y \big|} \le 10^{-k+1}\]
 
 \subsection{پاسخ}
+
+
+\[ \frac{\big| y-fl(y) \big| }{\big| y \big|}\] 
+\[ = \frac{\big| 0.d_{1}d_{2}... \times{10^{n}} - 0.d_{1}d_{2}...d_{k} \times{10^n} \big|}{\big| y \big|} \]
+\[ = \frac{\big| 0.00...0d_{k+1}d_{k+2}... \times{10^{n}}   \big|}{\big| y \big|}    \]
+\[ = \frac{\big| 0.d_{k+1}d_{k+2}... \times{10^{n-k}}   \big|}{\big| y \big|}    \]
+\[ = \frac{\big| 0.d_{k+1}d_{k+2}... \times{10^{n-k}}   \big|}{\big| 0.d_{1}d_{2}... \times{10^n} \big|}    \]
+\[ = \frac{\big| 0.d_{k+1}d_{k+2}... \times{10^{-k}}   \big|}{\big| 0.d_{1}d_{2}... \big|}    \]
+مخرج را تا یک رقم اعشار قطع میکنیم پس داریم:
+\[ 0.d_{1} \le 0.d_{1}d_{2}... \le 1\]
+\[ = \frac{0.d_{k+1}d_{k+2}... \times{10^{-k}}}{ 0.d_{1}}  \]
+\[ = \frac{0.d_{k+1}d_{k+2}... \times{10^{-k}}}{ d_{1}\times 0.1}  \]
+
+\[ = \frac{0.d_{k+1}d_{k+2}...}{ d_{1}}  \times \frac{ 10^{-k}}{\frac{1}{10}} \]
+
+\[ = \frac{0.d_{k+1}d_{k+2}...}{ d_{1}}  \times 10^{-k+1} \]
+داریم 
+\[ 0 \le 0.d_{k+1}d_{k+2}... \le 1 \]
+و
+\[ 1 \le d_{1} \le 9\]
+در اینجا $d_{1}$ ناصفر است چراکه در غیر این صورت از توان 10 یکی کاسته تا $d_{1}$ جدید ناصفر شود.
+\[ \le 10^{-k+1} \qquad\] 
+$\blacksquare$
+
+
+
 
 % answer to question 1
 
