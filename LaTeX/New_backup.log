@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.21)  24 APR 2023 16:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.21)  24 APR 2023 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./New.tex
-(New.tex
+**./New_backup.tex
+(New_backup.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-03-30>
 (D:\Applications\MikTex\tex/latex/base\article.cls
@@ -475,8 +475,9 @@ ian-tex-text;"
 sian-tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
- (New.aux)
-\openout1 = `New.aux'.
+
+(New_backup.aux)
+\openout1 = `New_backup.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -489,7 +490,7 @@ LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
 1.
-(D:\Applications\MikTex\tex/latex/base\ts1cmr.fd
+ (D:\Applications\MikTex\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 21.
@@ -537,7 +538,7 @@ File: ./images//figure3.png Graphic file (type bmp)
 File: ./images//figure4.png Graphic file (type bmp)
 <./images//figure4.png>
 
-Overfull \hbox (38.74945pt too wide) in paragraph at lines 171--212
+Overfull \hbox (38.74945pt too wide) in paragraph at lines 135--211
 [][][][] [][][][]
  []
 
@@ -547,23 +548,23 @@ File: ./images//figure5.png Graphic file (type bmp)
 File: ./images//figure6.png Graphic file (type bmp)
 <./images//figure6.png>
 
-Overfull \hbox (56.75574pt too wide) in paragraph at lines 214--218
-[][][][][] [][][][]
+Overfull \hbox (56.75574pt too wide) in paragraph at lines 213--215
+[][][][][] [][][] []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--218
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 217--222
 [][]
  []
 
-[5] [6] (New.aux) ) 
+[6] (New_backup.aux) ) 
 Here is how much of TeX's memory you used:
  7506 strings out of 411463
- 176474 string characters out of 5822473
+ 176558 string characters out of 5822473
  1853290 words of memory out of 5000000
  27607 multiletter control sequences out of 15000+600000
  519715 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,8n,97p,1038b,250s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,8n,97p,1045b,250s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on New.pdf (6 pages).
+Output written on New_backup.pdf (6 pages).
