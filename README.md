@@ -9,10 +9,10 @@ This project contains answers to three problems in the subject of numerical anal
 This is a private project and can only be accessed by when allowed by author.
 
 ## Contributors
-| ID |     Names     | Student Number |
-|----|---------------|----------------|
-| 01 | Ehsan Hoseini |    40007503    |
-| 02 | Hadi          |    ********    |
+| ID |     Names     |
+|----|---------------|
+| 01 | Ehsan Hoseini |
+| 02 | Hadi  Hoseini |
 
 ## File Descriptions
 - LaTeX folder contains .tex file and compiled pdf of report genereted for project.
