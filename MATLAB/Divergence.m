@@ -1,3 +1,6 @@
+% this entire program runs on about 55 secconds
+% while parallel on celeron N2840 (2@ 2.16 GHz)
+
 % main function:
 % this function takes index start : index_S
 % as N to search for least epsilon for n > N
